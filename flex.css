@@ -64,6 +64,31 @@
 
 /* Tablet Styles*/
 
+@media screen and(min-width:520px) and (max-width: 1024px) {
+  .flex-container{
+    height:fit-content ;
+  }
+  .quarter{
+    width: 48%;
+  }
+  .third{
+    width: 48%;
+  }
+  .third:last-of-type{
+    width: 97%;
+  }
+}
+@media screen and (max-width:520px){
+  .half,
+  .third,
+  .quarter{
+    width: 97%;
+  }
+
+}
+/* i found the media tag helpful I also learned how to use the last child tag correctly and it was helpful that we learned how to size the box 
+
+
 
 
 
